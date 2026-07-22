@@ -1,0 +1,10 @@
+
+During this project, I learned that each DAX object has a different purpose.
+
+Calculated Columns are created during the data refresh process and their values are stored in the model. They are useful when I need a value for every row, such as extracting the order year from the order date.
+
+Measures are different because they are calculated only when a visual needs them. They are mainly used to calculate totals, averages, counts, and other aggregated values. Since they are not stored in the model, they are more efficient for reporting.
+
+Calculated Tables create entirely new tables based on existing data. They are useful when I need a helper table or a summarized table for analysis, but they also increase the model size because they are stored.
+
+In summary, I would use Calculated Columns for row-level calculations, Measures for dynamic calculations in reports, and Calculated Tables when I need to create a new table from existing data
